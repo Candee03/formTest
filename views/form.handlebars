@@ -1,0 +1,14 @@
+<div id="container-form">
+    <span class="span-form">Nombre:</span>
+    <input class="input-form" id="nombre" type="text">
+
+    <span class="span-form">Email:</span>
+    <input class="input-form" id="email" type="text">
+
+    <form action="/api/mail/send" method="get">
+        <button class="btn-send" id="btn">Enviar</button>
+    </form>
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/mail.js"></script>
